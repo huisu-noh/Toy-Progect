@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toy-progect</title>
     <script defer src="./main.js"></script>
-    <script
-      src="https://kit.fontawesome.com/d5bac99a07.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./main.js"></script>
   </head>
   <body>
@@ -33,10 +29,12 @@
         <div class="header">
           <a href="#"><img src="./svgs/아바타.svg" alt="avatar" /></a>
           <span>생활비</span>
-          <a href="#"
-            ><img src="./svgs/간편결제아이콘.svg" alt="payment code"
-          /></a>
-          <a href="#"><img src="./svgs/search.svg" alt="search" /></a>
+          <span>
+            <a href="#"
+              ><img src="./svgs/간편결제아이콘.svg" alt="payment code"
+            /></a>
+            <a href="#"><img src="./svgs/search.svg" alt="search" /></a>
+          </span>
         </div>
         <!-- 계좌번호, 현재금액 -->
         <div class="account">
@@ -45,7 +43,10 @@
               <span>355-673877-78773</span>
               <span>이체</span>
             </li>
-            <li>1,240,000원</li>
+            <li>
+              1,240,000
+              <span>원</span>
+            </li>
             <li>
               <input type="range" />
               <a href="#"><img src="./svgs/chart.svg" alt="chart" /></a>
@@ -61,17 +62,23 @@
         <!-- 저금통, 지출 내역  (드래그 부분) -->
         <div class="history">
           <ul class="plan">
-            <li>여행가자! 842,200원</li>
-            <li>냉장고 사기 142,200원</li>
-            <li>저금통 만들기?</li>
+            <li>
+              여행가자! <br />
+              842,200원
+            </li>
+            <li>
+              냉장고 사기 <br />
+              142,200원
+            </li>
+            <li><span>+</span>저금통 만들기</li>
           </ul>
           <!-- 지출내역 (스크롤) -->
-          <div>
-            <div class="day">
-              <div class="when">오늘</div>
-              <div class="sum">27,600원</div>
-            </div>
+          <div class="onDay">
             <ul class="list">
+              <div class="day">
+                <div class="when">오늘</div>
+                <div class="sum">27,600원</div>
+              </div>
               <li><span>미스터피자</span><span>32,000원</span></li>
             </ul>
           </div>

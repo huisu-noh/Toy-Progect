@@ -1,0 +1,40 @@
+.header {
+  width: 327px;
+  height: 43px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > a {
+  height: 43px;
+  width: 43px;
+}
+
+.header > span {
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.64px;
+  position: relative;
+  top: 8px;
+}
+
+.header > span:last-child {
+  width: 66px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 9.5px;
+}
+
+.header > a:nth-child(2) {
+  width: 24px;
+  height: 21px;
+}
+
+.header > a:last-child {
+  width: 24px;
+  height: 24px;
+}

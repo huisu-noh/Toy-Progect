@@ -6,6 +6,10 @@
 @import url(css/link.css);
 @import url(css/history.css);
 @import url(css/menu.css);
+@import url(css/title.css);
+@import url(css/money.css);
+@import url(css/report.css);
+@import url(css/patten.css);
 
 body {
   font-family: 'Jua', sans-serif;
@@ -31,4 +35,16 @@ body {
 .main {
   width: 375px;
   height: 680px;
+}
+
+.expenseScroll {
+  width: 375px;
+  height: 630px;
+  background-color: #fff;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.expenseScroll::-webkit-scrollbar {
+  display: none;
 }

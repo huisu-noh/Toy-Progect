@@ -1,0 +1,24 @@
+.money > div > span:first-child {
+  width: 99px;
+  height: 27px;
+  line-height: 26.64px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 78px 0 29px;
+  color: #444444;
+}
+
+.money > div > span:last-child {
+  width: 131px;
+  height: 36px;
+  line-height: 35.52px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff5f00;
+}
+
+.money > div > input {
+  width: 308px;
+  height: 28px;
+  margin: 23px 0 0 29px;
+}

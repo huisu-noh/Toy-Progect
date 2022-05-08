@@ -1,0 +1,49 @@
+.menu {
+  width: inherit;
+  height: 76px;
+  position: absolute;
+  top: 736px;
+  background: linear-gradient(170deg, #00bdb2, #c4e7b8);
+}
+
+.menu > ul {
+  width: 297px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 24px;
+  left: 46px;
+}
+
+.menu > ul > li {
+  color: #eeece5;
+}
+
+.menu > ul > li > button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+.menu > li:first-child {
+  width: 28px;
+  height: 28px;
+  color: #005f59;
+  margin-right: 60px;
+}
+
+.menu > li:nth-child(2) {
+  width: 30px;
+  height: 23.44px;
+}
+
+.menu > li:nth-child(3) {
+  width: 24px;
+  height: 24px;
+}
+
+.menu > li:last-child {
+  width: 28px;
+  height: 28px;
+}

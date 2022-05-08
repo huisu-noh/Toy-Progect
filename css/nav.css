@@ -1,0 +1,37 @@
+.nav {
+  width: inherit;
+  height: 44px;
+}
+
+.nav > span {
+  width: 54px;
+  height: 20px;
+  font-weight: 600;
+  padding-top: 6px;
+  position: absolute;
+  top: 7px;
+  left: 21px;
+  bottom: 16px;
+}
+
+.nav > div {
+  position: relative;
+  top: 17.33px;
+  left: 294px;
+  bottom: 15.33px;
+}
+
+.nav > div > span:first-child {
+  width: 17px;
+  height: 10.67px;
+}
+
+.nav > div > span:nth-child(2) {
+  width: 15.33px;
+  height: 11px;
+}
+
+.nav > div > span:last-child {
+  width: 24.33px;
+  height: 11.33px;
+}

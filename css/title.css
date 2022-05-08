@@ -1,0 +1,21 @@
+.title > a {
+  display: block;
+  width: 26px;
+  height: 27px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20.72px;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  left: 334px;
+}
+
+.title > div {
+  width: 93px;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35.52px;
+  padding-left: 30px;
+}

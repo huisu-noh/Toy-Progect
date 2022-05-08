@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toy-progect</title>
+    <script defer src="./main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d5bac99a07.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 화면 전체 -->
+    <div class="box">
+      <!-- 상단 고정 -->
+      <div class="nav">
+        <span>9:41</span>
+        <div>
+          <span
+            ><img src="./svgs/Cellular Connection.svg" alt="Connection"
+          /></span>
+          <span><img src="./svgs/Wifi.svg" alt="Wifi" /></span>
+          <span><img src="./svgs/Battery.svg" alt="Battery" /></span>
+        </div>
+      </div>
+      <!-- 지출관리 (스크롤시 고정되는 부분) -->
+      <div class="title">
+        <div>닫기</div>
+        <div>지출관리</div>
+      </div>
+      <!-- 스크롤 되는 전체  -->
+      <div class="main">
+        <!-- 기준 금액 설정 -->
+        <div class="money">
+          <div>
+            <span>기준금액설정</span>
+            <span>2,100,000원</span>
+          </div>
+          <div><input type="range" /></div>
+        </div>
+        <!-- 일간 리포트 -->
+        <div class="report">
+          <div>일간리포트</div>
+          <div>chart</div>
+        </div>
+        <!-- 지출 패턴 -->
+        <div class="patten">
+          <div>6월 지출 패턴</div>
+          <div>chart</div>
+          <ul>
+            <li>
+              <span>이미지</span>
+              <span>주유비</span>
+              <span>56,000원</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 하단 고정 -->
+      <div class="menu">
+        <ul>
+          <li>
+            <button><img src="./svgs/mdi_home.svg" alt="Home" /></button>
+          </li>
+          <li>
+            <button><img src="./svgs/arrow.svg" alt="arrow" /></button>
+          </li>
+          <li>
+            <button><img src="./svgs/chat.svg" alt="chat" /></button>
+          </li>
+          <li>
+            <button><img src="./svgs/more.svg" alt="more" /></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

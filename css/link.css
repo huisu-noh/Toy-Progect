@@ -1,0 +1,13 @@
+.link {
+  width: 262px;
+  height: 21px;
+  margin: 24px 0 21px 43px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.72px;
+  color: black;
+}
+
+.link > a {
+  color: #000;
+}

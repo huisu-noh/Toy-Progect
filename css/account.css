@@ -1,0 +1,80 @@
+.account {
+  width: inherit;
+  height: 155px;
+  margin-top: 33px;
+  position: relative;
+}
+
+.account > ul {
+  width: 279px;
+  height: 155px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.account > ul > li:first-child > span:first-child {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.72px;
+  color: #858585;
+  position: absolute;
+  top: 14px;
+  left: 121px;
+}
+
+.account > ul > li:first-child > span:last-child {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.72px;
+  color: #000;
+  position: relative;
+  top: 14px;
+  left: 236px;
+}
+
+.account > ul > li:nth-child(2) {
+  width: 160.57px;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35.52px;
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 30.28px;
+  left: 59.22px;
+}
+
+.account > ul > li:nth-child(2) > span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.72px;
+  color: #000;
+}
+
+.account > ul > li:nth-child(3) {
+  width: 233px;
+  height: 17px;
+  position: relative;
+  top: 43.07px;
+  left: 32px;
+}
+
+.account > ul > li:nth-child(3) > input {
+  width: 202px;
+  height: 6px;
+}
+
+.account > ul > li:last-child {
+  width: 158.29px;
+  height: 21px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.72px;
+  color: #858585;
+  position: relative;
+  top: 55.07px;
+  left: 61.49px;
+}

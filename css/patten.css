@@ -1,0 +1,71 @@
+.patten > div:first-child {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.64px;
+  color: #444444;
+  margin: 46px 0 0 30px;
+}
+
+.patten > div:nth-child(2) {
+  width: 308px;
+  height: 308px;
+  margin: 18px 0 0 36px;
+}
+
+.patten > ul {
+  margin: 5.45px 0 0 32px;
+}
+
+.patten > ul > li {
+  width: 306px;
+  height: 39.55px;
+  position: relative;
+}
+
+.patten > ul > li > span {
+  display: inline-block;
+}
+
+.patten > ul > li:first-child > span > img {
+  width: 28px;
+  margin-right: 21px;
+}
+
+.patten > ul > li:nth-child(2) > span > img {
+  width: 30px;
+  margin-right: 18px;
+}
+
+.patten > ul > li:nth-child(3) > span > img {
+  width: 20px;
+  height: 27.65px;
+  margin-right: 25px;
+}
+
+.patten > ul > li:nth-child(4) > span > img {
+  width: 27px;
+  margin-right: 19px;
+}
+
+.patten > ul > li:nth-child(5) > span > img {
+  width: 25px;
+  margin-right: 20px;
+}
+.patten > ul > li > span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #000;
+  position: relative;
+  top: 12.55px;
+}
+.patten > ul > li > span:nth-child(3) {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: right;
+  color: #858585;
+  position: absolute;
+  right: 0px;
+}

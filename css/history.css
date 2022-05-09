@@ -79,7 +79,7 @@
 }
 
 .onDay {
-  height: 320px;
+  height: 318px;
   margin-top: 7px;
   overflow: auto;
   overflow-x: hidden;
@@ -90,23 +90,22 @@
 }
 
 .day {
-  width: 302px;
-  height: 21px;
   display: flex;
   justify-content: space-between;
 }
 
 .list {
   width: 302px;
-  height: 296px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.list > li {
+  margin-top: 38px;
+}
 .when {
-  width: 26px;
+  width: 126px;
   height: 21px;
   font-size: 14px;
   font-weight: 700;
@@ -116,7 +115,6 @@
 }
 
 .sum {
-  width: 94px;
   height: 21px;
   font-size: 14px;
   font-weight: 500;
@@ -125,7 +123,7 @@
   color: #b4b4b4;
 }
 
-.list > li {
+.list > li:not(:first-of-type) {
   width: 302px;
   height: 34px;
   display: flex;

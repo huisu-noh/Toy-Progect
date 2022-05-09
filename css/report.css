@@ -1,0 +1,13 @@
+.report > div:first-child {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.64px;
+  color: #444444;
+  margin: 59px 0 0 29px;
+}
+
+.report > div:last-child {
+  width: 347px;
+  height: 198px;
+  margin: 17px 0 0 30px;
+}

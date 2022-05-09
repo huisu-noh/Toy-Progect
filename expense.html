@@ -5,12 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toy-progect</title>
-    <script defer src="./main.js"></script>
-    <script
-      src="https://kit.fontawesome.com/d5bac99a07.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="./chart.js"></script>
   </head>
   <body>
     <!-- 화면 전체 -->
@@ -44,12 +41,14 @@
         <!-- 일간 리포트 -->
         <div class="report">
           <div>일간리포트</div>
-          <div>chart</div>
+          <div><canvas id="myChart" width="462" height="198"></canvas></div>
         </div>
         <!-- 지출 패턴 -->
         <div class="patten">
           <div>6월 지출 패턴</div>
-          <div>chart</div>
+          <div>
+            <div><canvas id="myPatten" width="308" height="308"></canvas></div>
+          </div>
           <ul>
             <li>
               <span><img src="./imgs/car.png" alt="car" /></span>

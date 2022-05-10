@@ -19,6 +19,22 @@
 
 .money > div > input {
   width: 308px;
-  height: 28px;
+  height: 9.18px;
   margin: 23px 0 0 29px;
+  overflow: hidden;
+  -webkit-appearance: none;
+  background: #c4c4c4;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.money > div > input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #ff5f00;
+  cursor: pointer;
+  height: 17px;
+  width: 4px;
+  border-radius: 3px;
+  box-shadow: -100vw 0 0 100vw #ffdb4c;
+  border: 0.1px solid #ffdb4c;
+  cursor: pointer;
 }

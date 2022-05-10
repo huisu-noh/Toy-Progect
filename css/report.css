@@ -1,3 +1,6 @@
+.report {
+  margin-bottom: 46px;
+}
 .report > div:first-child {
   font-size: 18px;
   font-weight: 500;
@@ -10,4 +13,16 @@
   width: 347px;
   height: 198px;
   margin: 17px 0 0 30px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.report > div:last-child::-webkit-scrollbar {
+  display: none;
+}
+
+#myChart {
+  width: 462px !important ;
+  height: 198px !important;
 }

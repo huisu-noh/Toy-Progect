@@ -62,8 +62,25 @@
 }
 
 .account > ul > li:nth-child(3) > input {
+  -webkit-appearance: none;
   width: 202px;
-  height: 6px;
+  height: 9.18px;
+  overflow: hidden;
+  background: #c4c4c4;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.account > ul > li:nth-child(3) > input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #ff5f00;
+  cursor: pointer;
+  height: 17px;
+  width: 4px;
+  border-radius: 3px;
+  box-shadow: -100vw 0 0 100vw #ffdb4c;
+  border: 0.1px solid #ffdb4c;
+  cursor: pointer;
 }
 
 .account > ul > li:last-child {

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "node-fetch": "^3.2.4",
+    "parcel": "^2.5.0"
+  },
+  "type": "module"
+}

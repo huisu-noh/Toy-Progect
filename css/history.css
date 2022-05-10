@@ -10,11 +10,12 @@
 
 .dragBtn {
   width: 48px;
-  height: 2.15px;
   background-color: #c4c4c4;
+  border: none;
   position: relative;
   left: 132px;
-  bottom: 20.55px;
+  bottom: 30.55px;
+  cursor: pointer;
 }
 .plan {
   box-sizing: border-box;
@@ -134,4 +135,13 @@
   color: #444444;
   font-size: 18px;
   line-height: 26.64px;
+}
+
+.scrollup {
+  top: -245px;
+  height: 629px;
+}
+
+.onDayScrollUp {
+  height: 529px;
 }

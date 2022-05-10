@@ -44,7 +44,7 @@ function sumResult(bankList, date) {
 async function fetchList() {
   // josn file에서 자료 가지고 옴
   let response = await fetch(
-    `https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6e4d3d3-c52c-4ea8-b665-968a3b17c5ea/bank.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220509%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220509T070905Z&X-Amz-Expires=86400&X-Amz-Signature=bdd390d590684649af20dfd5dcb29f6d75f1c96b46d99a7e28f20c187bc56e90&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22bank.json%22&x-id=GetObject`
+    'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6e4d3d3-c52c-4ea8-b665-968a3b17c5ea/bank.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220510%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220510T115253Z&X-Amz-Expires=86400&X-Amz-Signature=a6404ddf8ab7ef3726bb1d6c6cc7d875e33808c47340cfb06ef04382af148ed6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22bank.json%22&x-id=GetObject'
   );
   const obj = await response.json();
 
